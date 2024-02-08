@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Blog</title>
-		<link rel="stylesheet" href="./style.css" />
-	</head>
-	<body>
-		<header class="header">
-			<nav class="navbar">
-
-				<div class="logo">
-					<img class="image_logo" src="unicorn.png" alt="logo" />
-					<a href="/" class="logo_link">AboutJS</a>
-				</div>
-				<div class="burger-menu">
-          <div class="burger-icon" onclick="toggleMenu()">
-						<svg viewBox="0 0 100 80" width="60" height="20" fill="#e3e3e6">
-							<rect y='0' x='' width="80" height="12"></rect>
-							<rect y="30" x='20' width="80" height="12"></rect>
-							<rect y="60" x='40' width="80" height="12"></rect>
-					</svg>
-				</div>
-				<ul class="nav_list" id='menu'>
-					<li class="list_item">
-						<a id="aboutLink" class="item_link" href="/about">About</a>
-					</li>
-					<li class="list_item">
-						<a id="postsLink" class="item_link" href="/posts">Posts</a>
-					</li>
-					<li class="list_item">
-						<a id="roadmapLink" class="item_link" href="/roadmap">Roadmap</a>
-					</li>
-				</ul>
-        </div>
-			</nav>
-		</header>
-		<main class="container">
-			<h1 class="posts_title">Список постов</h1>
+<h1 class="posts_title">Список постов</h1>
 			<div class="row">
 				<div class="col">
 					<div class="card">
@@ -103,8 +64,3 @@
 					</div>
 				</div>
 			</div>
-		</main>
-		<script src="./components/activeLink.js"></script>
-		<script src="./components/menuToggle.js"></script>
-	</body>
-</html>
